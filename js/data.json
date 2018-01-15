@@ -1,0 +1,64 @@
+{
+  "roles": [
+    {
+      "id":"1",
+      "name": "Leaders",
+      "type": "",
+      "description": "",
+      "imgurl":"./img/specialist.png",
+      "characters": [
+        { "name": "Åri", "imgurl":"./img/leaders/Ari.png" },
+        { "name": "Olmhump", "imgurl":"./img/leaders/Olmhump.png" },
+        { "name": "Ronbearamy", "imgurl":"./img/leaders/Ronbearamy.png" },
+        { "name": "Venòm", "imgurl":"./img/leaders/Venom.png" }
+      ]
+    },
+    {
+      "id":"2",
+      "name": "Tanks",
+      "type": "",
+      "description": "",
+      "imgurl":"./img/warrior.png",
+      "characters": [
+        { "name": "Dreadnyght", "imgurl":"./img/tanks/Dreadnyght.png" },
+        { "name": "Ronbearamy", "imgurl":"./img/tanks/Ronbearamy.png" },
+        { "name": "Tìkitorch", "imgurl":"./img/tanks/Tikitorch.png" },
+        { "name": "Toils", "imgurl":"./img/tanks/Toils.png" }
+      ]
+    },
+    {
+      "id":"3",
+      "name": "Healers",
+      "type": "",
+      "description": "",
+      "imgurl":"./img/support.png",
+      "characters": [
+        { "name": "Åri", "imgurl":"./img/healers/Ari.png" },
+        { "name": "Greyem", "imgurl":"./img/healers/Greyem.png" },
+        { "name": "Lôgos", "imgurl":"./img/healers/Logos.png" },
+        { "name": "Vécc", "imgurl":"./img/healers/Vecc.png" }
+      ]
+    },
+    {
+      "id":"4",
+      "name": "Damage",
+      "type": "",
+      "description": "",
+      "imgurl":"./img/assassin.png",
+      "characters": [
+        { "name": "Alçiel", "imgurl":"./img/damage/Alciel.png" },
+        { "name": "Atrèyu", "imgurl":"./img/damage/Atreyu.png" },
+        { "name": "Bartzillia", "imgurl":"./img/damage/Bartzillia.png" },
+        { "name": "Jcru", "imgurl":"./img/damage/Jcru.png" },
+        { "name": "Kheygan", "imgurl":"./img/damage/Kheygan.png" },
+        { "name": "Kontagion", "imgurl":"./img/damage/Kontagion.png" },
+        { "name": "Lithìum", "imgurl":"./img/damage/Lithium.png" },
+        { "name": "Ñightwish", "imgurl":"./img/damage/Nightwish.png" },
+        { "name": "Olmhump", "imgurl":"./img/damage/Olmhump.png" },
+        { "name": "Toils", "imgurl":"./img/damage/Toils.png" },
+        { "name": "Venòm", "imgurl":"./img/damage/Venom.png" },
+        { "name": "Wraithshroud", "imgurl":"./img/damage/Wraithshroud.png" }
+      ]
+    }
+  ]
+}

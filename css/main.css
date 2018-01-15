@@ -1,0 +1,289 @@
+@charset 'utf-8';
+
+/**********************************
+            DEFAULTS
+**********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+.title-bar {
+    background-color: #212121;
+    padding-top: .1rem;
+
+}
+
+.page-title {
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    margin-bottom: 0rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1.5px 1px black;
+    color: #444;
+}
+
+.display-3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    padding-top: 1rem;
+    font-family: 'Lora', serif;
+}
+
+main {
+    padding-top: 2rem;
+    height: 100%;
+    padding-bottom: 5rem;
+    background-image: url("../img/hots_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+
+}
+
+/**********************************
+            NAV MENU
+**********************************/
+
+#logo-image {
+    width: 15%;
+    height: 10%;
+}
+
+.nav-item {
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title-bg {
+    height: 100%;
+    width: 50%;
+}
+
+#daggers {
+    width: 80%;
+    text-align: center;
+}
+
+.mainlogo {
+    padding-top: .5rem;
+}
+
+/**********************************
+            CONTENT
+**********************************/
+
+#newsfeed {
+    background-image: url("../img/hots_bg.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#title-bg1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.news-title {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    text-shadow: 1.5px 1px #222;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.help {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+#contactTitle{
+    margin-top: 4rem;
+}
+#contact {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#name{
+    background-color: #333;
+    border-color: #222;
+}
+#email {
+    margin-left: .2rem;
+    background-color: #333;
+    border-color: #222;
+    margin-bottom: 1rem;
+}
+#inquiries {
+    background-color: #333;
+    border-color: #222;
+    margin-bottom: .5rem;
+}
+
+#button {
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+/**********************************
+          CHARACTER PAGE
+**********************************/
+
+/*.guildlist {
+    position: relative;
+    height: 100%;
+}*/
+#guildlist {
+    position: relative;
+    height: 100%;
+    background-image: url("../img/hots_bg.jpg");
+    background-color: #000;
+    background-size: cover;
+    
+}
+#members{
+    height: 100%;
+
+}
+
+.main {
+    transform: translateX(-200%);
+    width: 100%;
+    height: auto;
+    padding: 5.8rem  2rem 0;
+    transition: transform 0.5s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main.active {
+    transform: translateX(0);
+}
+
+/*
+#charPage {
+    background-image: url("../img/hots_bg.jpg");
+    background-color: #000;
+    background-size: cover;
+}
+*/
+
+.item-card {
+    margin: 1rem 2rem;
+    border: 1px solid #222;
+    box-shadow: 2px 2px 2px #111;
+    overflow: auto;
+    background-color: #222;
+}
+
+.item-card img {
+    float: left;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: auto;
+    height: 9rem;
+    border-right: 1px solid #333;
+}
+
+.item-title {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2.4rem;
+    padding-top: 1rem;
+    padding-right: .5rem;
+    color: #eee;
+    cursor: pointer;
+}
+
+.item-title:hover {
+    color: orange;
+}
+
+.item-desc {
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1.2rem;
+    padding-right: 1rem;
+    color: #888;
+    height: 1.5rem;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.back-btn {
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.back-btn:hover {
+    color: orange;
+}
+#list-page{
+    margin-bottom: 10rem;
+}
+/**********************************
+            FOOTER
+**********************************/
+
+footer {
+    color: gray;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    text-align: right;
+    position: relative;
+ 
+}
+
+#footer-row {
+    float: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.social-media {
+    margin-right: 1.5rem;
+}
+
+#instagram:hover,
+#youtube:hover,
+#pinterest:hover,
+#facebook:hover {
+    background-color: rgba(131, 222, 89, 0.8);
+}
+
+.josh {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/**********************************
+        MEDIA QUERIES
+**********************************/
