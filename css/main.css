@@ -17,8 +17,11 @@ body {
     line-height: 1.6;
     font-family: Oswald, Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #151515;
+}
 .title-bar {
-    background-color: #212121;
+    background-color: mediumpurple;
     padding-top: .1rem;
 
 }
@@ -28,8 +31,8 @@ body {
     padding-bottom: .2rem;
     margin-bottom: 0rem;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 1.5px 1px black;
-    color: #444;
+    text-shadow: 2px 2px #222;
+    color: white;
 }
 
 .display-3 {
@@ -45,9 +48,6 @@ main {
     padding-top: 2rem;
     height: 100%;
     padding-bottom: 5rem;
-    background-image: url("../img/hots_bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
 
@@ -107,6 +107,7 @@ main {
     padding-top: .2rem;
     padding-bottom: .2rem;
     text-shadow: 1.5px 1px #222;
+    box-shadow: 2px 2px 2px #111;
 }
 
 .jumbotron {
@@ -148,6 +149,16 @@ main {
     padding-left: .2rem;
     padding-right: .2rem;
 }
+#contact-page{
+    padding-top: 2rem;
+    height: 100%;
+    padding-bottom: 5rem;
+    background-image: url("../img/hots_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
 
 /**********************************
           CHARACTER PAGE
@@ -160,8 +171,7 @@ main {
 #guildlist {
     position: relative;
     height: 100%;
-    background-image: url("../img/hots_bg.jpg");
-    background-color: #000;
+    background-color: #151515;
     background-size: cover;
     
 }
@@ -186,13 +196,7 @@ main {
     transform: translateX(0);
 }
 
-/*
-#charPage {
-    background-image: url("../img/hots_bg.jpg");
-    background-color: #000;
-    background-size: cover;
-}
-*/
+
 
 .item-card {
     margin: 1rem 2rem;
@@ -247,6 +251,10 @@ main {
 #list-page{
     margin-bottom: 10rem;
 }
+#charlist{
+    height: 100%;
+    padding-bottom: 7rem;
+}
 /**********************************
             FOOTER
 **********************************/
@@ -258,7 +266,8 @@ footer {
     padding-bottom: .5rem;
     width: 100%;
     text-align: right;
-    position: relative;
+}
+#footer-guild{
  
 }
 
